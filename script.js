@@ -25,11 +25,6 @@ button.addEventListener("click", () => {
 
     }
     result.innerHTML = `you are ${ageyear} years ${ageMonth} Months and ${agedate} Old`;
-    // else {
-    //     ageMonth--;
-    //     agedate = (30.45 * tmonth + tday) - (30.45 * bmonth + bday);
-    //     agedate = (30.42 * bmonth + tday) - 365;
-    // }
     console.log("You are  :" + ageyear + "Year," + ageMonth + " months and " + agedate + "Days Old :")
 }
 );
